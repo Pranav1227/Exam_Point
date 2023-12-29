@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.text-center{
+    text-align: center;
+}
+
+img{
+    height: 100px;
+    width: 200px;
+}
+
+ mat-card{
+   margin-top: 10%;
+    padding: 15px;
+} 
+.mat-card{
+    margin-top: 20px;
+}
+
+input{
+    padding: 20px;
+}
+.mt15{
+    margin-top: 15px;
+}
+.ml20{
+    margin-left: 20px;
+}
+.mt20{
+    margin-top: 20px;
+}
+.w100{
+    width: 100%;
+}

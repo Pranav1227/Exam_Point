@@ -1,0 +1,47 @@
+<mat-card>
+
+
+
+    <mat-action-list>
+        <div mat-subheader>Menu</div>
+        <button mat-list-item [routerLink]="['/admin-dashboard']">
+            <img src="../../assets/house.png" alt="Home Icon" class="icon">
+            Home
+          </button>
+
+
+          <!-- <button mat-list-item routerLink="/admin-dashboard/profile">
+            <img src="../../assets/profile.png" alt="Profile Icon" class="icon">
+            Profile
+          </button> -->
+          
+        <button mat-list-item routerLink="/admin-dashboard/view-categories">
+        
+            <img src="../../assets/list.png" alt="Categories Icon" class="icon">
+        
+        Categories
+    </button>
+        
+        
+        <button mat-list-item routerLink="/admin-dashboard/add-category">
+            <img src="../../assets/add.png" alt="Add Categories Icon" class="icon">
+            Add Categories</button>
+       
+        <button mat-list-item routerLink="/admin-dashboard/quizzes">
+            <img src="../../assets/quiz.png" alt="Add Categories Icon" class="icon">
+            Quizzes</button>
+        
+        
+        <button mat-list-item routerLink="/admin-dashboard/add-quiz">
+            <img src="../../assets/addq.png" alt="Add Categories Icon" class="icon">
+            Add Quiz</button>
+       
+       
+        <button mat-list-item routerLink="">
+            <img src="../../assets/logout.png" alt="Add Categories Icon" class="icon">
+            Logout </button>
+    </mat-action-list>
+
+
+
+</mat-card>

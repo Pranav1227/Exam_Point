@@ -1,0 +1,21 @@
+<mat-toolbar color="primary">
+  <button mat-icon-button routerLink="/">
+    <mat-icon>home</mat-icon>
+  </button>
+  <span class="spacer"></span>
+  <span class="project-name">Exam Point</span>
+  <span class="spacer"></span>
+
+
+  <button mat-button [matMenuTriggerFor]="menu">Login</button>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item routerLink="/user-login">User Login</button>
+    <button mat-menu-item routerLink="/admin-login">Admin Login</button>
+  </mat-menu>
+  <button mat-button [matMenuTriggerFor]="menureg">Register</button>
+  <mat-menu #menureg="matMenu">
+    <button mat-menu-item routerLink="/admin-registration">Admin Registration</button>
+    <button mat-menu-item routerLink="/user-registration">User Registration</button>
+  </mat-menu> 
+  <button mat-button routerLink="">Logout</button>
+</mat-toolbar>

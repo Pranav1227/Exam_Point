@@ -1,0 +1,13 @@
+
+.home-container-ad {
+    height: 100vh;
+    background-image: url('../../assets/AD.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+  }
